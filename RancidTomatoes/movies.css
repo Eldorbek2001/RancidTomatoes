@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body{
+  background-image: url(images/moviebg.png);
+  padding-bottom: 100px;
+}
+h1{
+  text-align: center;
+  text-shadow: 2px 2px gray;
+}
+span{
+  padding-left: 60px;
+  font-size: 4em;
+  color: red;
+
+}
+img{
+  margin-right: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  vertical-align: top;
+  float: left;
+}
+dl{
+  background-color: #8FBC8F;
+  border-bottom-right-radius: 15px;
+  padding-top: 18px;
+  margin: 0;
+  height: 620px;
+  width: 250px;
+}
+dt{
+  padding-left: 12px;
+  margin: 4px 0 4px 0;
+  font-weight: bold;
+}
+dd{
+  margin-inline-start: 26px;
+  padding-left: 12px;
+}
+p:nth-child(odd){
+  border: 2px solid gray;
+  margin-left: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  width: 294px;
+}
+q{
+  padding: 4px;
+}
+.dataAll{
+  float: left;
+  width: 700px;
+}
+.metaData{
+  padding-left: 10px;
+  float: right;
+  text-align: left;
+}
+.dataLeft{
+  padding-left: 20px;
+  display: inline-block;
+}
+.dataRight{
+  padding-left: 20px;
+  display: inline-block;
+}
+.main{
+  background-color: lightgray;
+  border: 3px solid gray;
+  border-radius: 20px;
+  margin: auto;
+  width: 960px;
+  height: 1050px;
+  box-shadow: 6px 6px gray;
+}
+.topBar{
+  height: 50px;
+  background-image: url(images/rancidbannerbg.png);
+}
+.rottenBar{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 5.2em;
+  background-image: url(images/rottenlargebg.png);
+}
+.overview{
+  margin: 0;
+  float: right;
+}
+.overview img{
+  margin-right: 0;
+}
